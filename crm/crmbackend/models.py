@@ -35,7 +35,7 @@ class Houses(models.Model):
     two_bed = models.IntegerField()
     description = models.CharField(max_length=255)
     is_prepayment = models.BooleanField(default=False)
-    min_prepayment = models.FloatField()
+    min_prepayment = models.FloatField(default=0)
 
 class Orders(models.Model):
     profile_id = models.ManyToManyField(Profiles)
@@ -46,7 +46,6 @@ class Orders(models.Model):
     admin_comment = models.CharField(null=True, blank=True)
     total_coast = models.FloatField()
     prepayment = models.FloatField()
-
 class House_Photos(models.Model):
     url = models.CharField()
     house_id = models.ForeignKey(Houses, on_delete=models.CASCADE)

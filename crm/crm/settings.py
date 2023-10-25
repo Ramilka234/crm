@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'crmbackend'
+    'crmbackend',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "crm",
         "USER": "postgres",
-        "PASSWORD": "root",
+        "PASSWORD": "postgres",
         "HOST": "localhost",
         "PORT": "5432",
     }
