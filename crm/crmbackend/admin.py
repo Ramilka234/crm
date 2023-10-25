@@ -1,7 +1,6 @@
 from django.contrib import admin
 
-from .models import Users, Roles, Houses
+from .models import Users, Roles
 
 admin.site.register(Users)
 admin.site.register(Roles)
-admin.site.register(Houses)
