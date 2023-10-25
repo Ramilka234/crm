@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4491b79e-5919-4aef-b067-c006b5881157" name="Changes" comment="secondcomit" />
+    <list default="true" id="4491b79e-5919-4aef-b067-c006b5881157" name="Changes" comment="added requirememts.txt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,11 +58,19 @@
       <option name="project" value="LOCAL" />
       <updated>1698261977859</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added requirememts.txt">
+      <created>1698262531547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698262531547</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="secondcomit" />
-    <option name="LAST_COMMIT_MESSAGE" value="secondcomit" />
+    <MESSAGE value="added requirememts.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added requirememts.txt" />
   </component>
 </project>
